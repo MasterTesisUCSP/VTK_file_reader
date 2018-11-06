@@ -1,0 +1,9 @@
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/yo.png,0.029
+Edges,0.011
+Skeleton,0.275
+EdgeDensity,0.005
+Propagation,0.062
+Edge Samples,0.018
+Samples,0.048
+InteriorTriangulation,0.009
+EdgeTriangulation,0.001

@@ -1,0 +1,16 @@
+ImageSize	763 611 1
+EdgeCount	4163
+FrameCount	2748
+InteriorCount	459286
+SkeletonCount	10457
+Dt	0 155.322
+Flux	-0.728537 0.247077
+EdgeDensity	-1 135.764
+WaveLenght	169
+DensityMap	5.48169 265.024
+DensityMap(n)	3 40
+EdgeSamplesCount	485
+TotalSamplesCount	3820
+EdgeTriangulationCount	1179
+InteriorTriangulationCount	7427
+Total time	0.697

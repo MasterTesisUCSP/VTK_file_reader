@@ -1,0 +1,9 @@
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/leaf.jpg,0.028
+Edges,0.019
+Skeleton,0.491
+EdgeDensity,0.005
+Propagation,0.104
+Edge Samples,0.012
+Samples,0.057
+InteriorTriangulation,0.005
+EdgeTriangulation,0

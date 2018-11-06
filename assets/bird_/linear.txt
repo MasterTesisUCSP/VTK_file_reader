@@ -1,0 +1,18 @@
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/2007_002094_.jpg,0.024
+Edges,0.014
+Skeleton,0.315
+EdgeDensity,0.005
+Propagation,0.067
+Edge Samples,0.007
+Samples,0.038
+InteriorTriangulation,0.006
+EdgeTriangulation,0
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/2007_002094_.jpg,0.026
+Edges,0.015
+Skeleton,0.316
+EdgeDensity,0.007
+Propagation,0.061
+Edge Samples,0.016
+Samples,0.087
+InteriorTriangulation,0.021
+EdgeTriangulation,0.003

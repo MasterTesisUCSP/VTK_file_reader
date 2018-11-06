@@ -1,0 +1,48 @@
+ImageSize	513 513 1
+EdgeCount	7320
+FrameCount	2052
+InteriorCount	253810
+SkeletonCount	17172
+Dt	0 106.668
+Flux	-0.761443 0.247077
+EdgeDensity	-1 92.1954
+WaveLenght	123
+DensityMap	3.31877 178.095
+DensityMap(n)	2 80
+EdgeSamplesCount	854
+TotalSamplesCount	2655
+EdgeTriangulationCount	1854
+InteriorTriangulationCount	5156
+Total time	0.476
+ImageSize	513 513 1
+EdgeCount	7320
+FrameCount	2052
+InteriorCount	253810
+SkeletonCount	17172
+Dt	0 106.668
+Flux	-0.761443 0.247077
+EdgeDensity	-1 92.1954
+WaveLenght	123
+DensityMap	3.31638 178.126
+DensityMap(n)	2 40
+EdgeSamplesCount	1168
+TotalSamplesCount	5410
+EdgeTriangulationCount	2570
+InteriorTriangulationCount	10574
+Total time	0.506
+ImageSize	513 513 1
+EdgeCount	7320
+FrameCount	2052
+InteriorCount	253810
+SkeletonCount	17172
+Dt	0 106.668
+Flux	-0.761443 0.247077
+EdgeDensity	-1 92.1954
+WaveLenght	123
+DensityMap	3.32007 178.116
+DensityMap(n)	2 20
+EdgeSamplesCount	1387
+TotalSamplesCount	9664
+EdgeTriangulationCount	3109
+InteriorTriangulationCount	18985
+Total time	0.545
