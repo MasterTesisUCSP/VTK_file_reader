@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
 	//DicomReader();
 	string filename = argv[1];
 	execute(filename);
+	exportMNOdes(filename);
 	
 	return 1;
 
