@@ -1,5 +1,5 @@
 #pragma once
-#define vtkRenderingCore_AUTOINIT 2(vtkRenderingOpenGL2, vtkInteractionStyle)
+//#define vtkRenderingCore_AUTOINIT 2(vtkRenderingOpenGL2, vtkInteractionStyle)
 
 #include <vtkSmartPointer.h>
 #include <vtkPolyData.h>
@@ -11,6 +11,7 @@
 #include <vtkRenderWindowInteractor.h>
 #include <vtkXMLGenericDataObjectReader.h>
 #include <vtkUnstructuredGridReader.h>
+//#include "/home/fil/VTK-8.2.0/IO/Legacy/vtkUnstructuredGridReader.h"
 #include <string>
 #include <sstream>
 ///#include <vtkGenericDataObjectReader.h>
@@ -66,52 +67,57 @@ int exportMNOdes(string file){
 int execute( string inputFilename){
 
 	// Get all data from the file
-		vtkSmartPointer<vtkUnstructuredGridReader> reader =
-			vtkSmartPointer<vtkUnstructuredGridReader>::New();
-		reader->SetFileName(inputFilename.c_str());
-		cout<<inputFilename.c_str()<<endl;
-		//reader->SetFileName(inputFilename);
-		reader->Update();
+	vtkSmartPointer<vtkUnstructuredGridReader> reader = vtkSmartPointer<vtkUnstructuredGridReader>::New();
 
-		// All of the standard data types can be checked and obtained like this:
-		if (vtkPolyData::SafeDownCast(reader->GetOutput()))	{
-			std::cout << "File is a polydata" << std::endl;
-		}
-		else if (vtkUnstructuredGrid::SafeDownCast(reader->GetOutput())){
-			std::cout << "File is an unstructured grid" << std::endl;
-		}
-		
-		if(reader->IsFileUnstructuredGrid())
-			std::cout<<"si\n";
-		else
-			std::cout << "no\n";
 
-	// Visualize
-		vtkSmartPointer<vtkDataSetMapper> mapper =
-			vtkSmartPointer<vtkDataSetMapper>::New();
-		mapper->SetInputConnection(reader->GetOutputPort());
+	reader->SetFileName(inputFilename.c_str());
+	cout<<inputFilename.c_str()<<endl;
+	//reader->SetFileName(inputFilename);
+	reader->Update();
 
-		vtkSmartPointer<vtkActor> actor =
-			vtkSmartPointer<vtkActor>::New();
-		actor->SetMapper(mapper);
+	// All of the standard data types can be checked and obtained like this:
+	if (vtkPolyData::SafeDownCast(reader->GetOutput()))	{
+		std::cout << "File is a polydata" << std::endl;
+	}
+	else if (vtkUnstructuredGrid::SafeDownCast(reader->GetOutput())){
+		std::cout << "File is an unstructured grid" << std::endl;
+	}
+	
+	if(reader->IsFileUnstructuredGrid())
+		std::cout<<"si\n";
+	else
+		std::cout << "no\n";
 
-		vtkSmartPointer<vtkRenderer> renderer =
-			vtkSmartPointer<vtkRenderer>::New();
-		vtkSmartPointer<vtkRenderWindow> renderWindow =
-			vtkSmartPointer<vtkRenderWindow>::New();
-		renderWindow->SetSize(1080,720);
-		renderWindow->AddRenderer(renderer);
-		vtkSmartPointer<vtkRenderWindowInteractor> renderWindowInteractor =
-			vtkSmartPointer<vtkRenderWindowInteractor>::New();
-		renderWindowInteractor->SetRenderWindow(renderWindow);
+// Visualize
+	vtkSmartPointer<vtkDataSetMapper> mapper =
+		vtkSmartPointer<vtkDataSetMapper>::New();
+	mapper->SetInputConnection(reader->GetOutputPort());
 
-		renderer->AddActor(actor);
-		renderer->SetBackground(40/255, 50/255, 34/255); 
+	vtkSmartPointer<vtkActor> actor =
+		vtkSmartPointer<vtkActor>::New();
+	actor->SetMapper(mapper);
+	std::cout<<"2\n";
+	vtkSmartPointer<vtkRenderer> renderer =
+		vtkSmartPointer<vtkRenderer>::New();
+	vtkSmartPointer<vtkRenderWindow> renderWindow =
+		vtkSmartPointer<vtkRenderWindow>::New();
+	renderWindow->SetSize(1080,720);
+	renderWindow->AddRenderer(renderer);
+	vtkSmartPointer<vtkRenderWindowInteractor> renderWindowInteractor =
+		vtkSmartPointer<vtkRenderWindowInteractor>::New();
+	renderWindowInteractor->SetRenderWindow(renderWindow);
 
-		renderWindow->Render();
-		renderWindowInteractor->Start();
-		
+	std::cout<<"3\n";
 
+	renderer->AddActor(actor);
+	renderer->SetBackground(40/255, 50/255, 34/255); 
+	std::cout<<"3.5\n";
+
+	renderWindow->Render();
+	std::cout<<"3.6\n";
+	renderWindowInteractor->Start();
+	
+	std::cout<<"4\n";
 	return EXIT_SUCCESS;
 
 	
