@@ -1,0 +1,190 @@
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.451
+Edges,0.025
+Skeleton,0.578
+EdgeDensity,0.009
+Propagation,0.095
+Edge Samples,0.017
+Samples,0.04
+InteriorTriangulation,0.002
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.112
+Edges,0.025
+Skeleton,0.554
+EdgeDensity,0.011
+Propagation,0.096
+Edge Samples,0.023
+Samples,0.032
+InteriorTriangulation,0.003
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.035
+Edges,0.025
+Skeleton,0.558
+EdgeDensity,0.01
+Propagation,0.101
+Edge Samples,0.027
+Samples,0.048
+InteriorTriangulation,0.009
+EdgeTriangulation,0.006
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.037
+Edges,0.027
+Skeleton,0.549
+EdgeDensity,0.017
+Propagation,0.092
+Edge Samples,0.024
+Samples,0.046
+InteriorTriangulation,0.005
+EdgeTriangulation,0.003
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.034
+Edges,0.026
+Skeleton,0.551
+EdgeDensity,0.009
+Propagation,0.095
+Edge Samples,0.017
+Samples,0.039
+InteriorTriangulation,0.003
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.038
+Edges,0.023
+Skeleton,0.57
+EdgeDensity,0.017
+Propagation,0.1
+Edge Samples,0.019
+Samples,0.038
+InteriorTriangulation,0.004
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.037
+Edges,0.027
+Skeleton,0.577
+EdgeDensity,0.014
+Propagation,0.091
+Edge Samples,0.02
+Samples,0.043
+InteriorTriangulation,0.004
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.034
+Edges,0.028
+Skeleton,0.572
+EdgeDensity,0.013
+Propagation,0.088
+Edge Samples,0.024
+Samples,0.057
+InteriorTriangulation,0.007
+EdgeTriangulation,0.004
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.035
+Edges,0.027
+Skeleton,0.571
+EdgeDensity,0.01
+Propagation,0.094
+Edge Samples,0.022
+Samples,0.057
+InteriorTriangulation,0.005
+EdgeTriangulation,0.003
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.036
+Edges,0.027
+Skeleton,0.569
+EdgeDensity,0.011
+Propagation,0.094
+Edge Samples,0.02
+Samples,0.046
+InteriorTriangulation,0.009
+EdgeTriangulation,0.003
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.036
+Edges,0.027
+Skeleton,0.571
+EdgeDensity,0.009
+Propagation,0.098
+Edge Samples,0.023
+Samples,0.06
+InteriorTriangulation,0.003
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.034
+Edges,0.024
+Skeleton,0.117
+EdgeDensity,0.003
+Propagation,0.101
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.036
+Edges,0.021
+Skeleton,0.112
+EdgeDensity,0.003
+Propagation,0.102
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.034
+Edges,0.027
+Skeleton,0.533
+EdgeDensity,0.009
+Propagation,0.096
+Edge Samples,0.011
+Samples,0.038
+InteriorTriangulation,0.003
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.036
+Edges,0.027
+Skeleton,0.536
+EdgeDensity,0.01
+Propagation,0.093
+Edge Samples,0.015
+Samples,0.043
+InteriorTriangulation,0.003
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.039
+Edges,0.031
+Skeleton,0.503
+EdgeDensity,0.01
+Propagation,0.108
+Edge Samples,0.027
+Samples,0.04
+InteriorTriangulation,0.004
+EdgeTriangulation,0.003
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.035
+Edges,0.032
+Skeleton,0.487
+EdgeDensity,0.011
+Propagation,0.097
+Edge Samples,0.021
+Samples,0.034
+InteriorTriangulation,0.004
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.039
+Edges,0.032
+Skeleton,0.484
+EdgeDensity,0.009
+Propagation,0.1
+Edge Samples,0.028
+Samples,0.056
+InteriorTriangulation,0.004
+EdgeTriangulation,0.002
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.039
+Edges,0.029
+Skeleton,0.489
+EdgeDensity,0.01
+Propagation,0.111
+Edge Samples,0.022
+Samples,0.035
+InteriorTriangulation,0.002
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.048
+Edges,0.03
+Skeleton,0.508
+EdgeDensity,0.016
+Propagation,0.107
+Edge Samples,0.024
+Samples,0.04
+InteriorTriangulation,0.001
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.036
+Edges,0.024
+Skeleton,0.57
+EdgeDensity,0.011
+Propagation,0.098
+Edge Samples,0.017
+Samples,0.035
+InteriorTriangulation,0.002
+EdgeTriangulation,0.001
+Opening /home/fil/MeshGeneration/B-Mesh/Assets/3/2009_004315.jpg,0.837
+Edges,0.025
+Skeleton,0.701
+EdgeDensity,0.01
+Propagation,0.093
+Edge Samples,0.051
+Samples,0.037
+InteriorTriangulation,0.002
+EdgeTriangulation,0.001
